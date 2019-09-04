@@ -1,0 +1,20 @@
+.container{
+    box-shadow: 0 0 3px 0 rgba(0,0,0,.3);
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    .content{
+        width: 550px;
+        height: 55px;
+        text-align: right;
+        margin: 0 auto;
+    
+        p{
+        padding: 0 20px;
+        margin: 3px 0;
+        }
+        p:nth-child(2){
+            font-size: 23px;
+        }
+    }
+}
